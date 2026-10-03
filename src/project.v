@@ -1,4 +1,9 @@
-/*
+/*/*
+ * Project: Custom Verilog Module
+ * Description: RTL design for OpenLane/LibreLane GDSII flow
+ * Trigger: Automated cloud build update
+ */
+
  * Copyright (c) 2024 Your Name
  * SPDX-License-Identifier: Apache-2.0
  */
