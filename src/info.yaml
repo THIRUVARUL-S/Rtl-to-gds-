@@ -1,0 +1,44 @@
+---
+project:
+  title:        "RTL to GDS"
+  author:       "THIRUVARUL-S"
+  discord:      ""
+  description:  "Tiny Tapeout 08 RTL to GDS Flow"
+  language:     "Verilog"
+  top_module:   "tt_um_thiruvarul_s_rtl_to_gds"
+  clock_hz:     10000000
+
+  tiles: "1x1"
+
+documentation:
+  author:       "THIRUVARUL-S"
+  gh_username:  "THIRUVARUL-S"
+  how_it_works: "Combines inputs"
+  how_to_test:  "Apply inputs"
+  inputs:
+    - ui_in[0]
+    - ui_in[1]
+    - ui_in[2]
+    - ui_in[3]
+    - ui_in[4]
+    - ui_in[5]
+    - ui_in[6]
+    - ui_in[7]
+  outputs:
+    - uo_out[0]
+    - uo_out[1]
+    - uo_out[2]
+    - uo_out[3]
+    - uo_out[4]
+    - uo_out[5]
+    - uo_out[6]
+    - uo_out[7]
+  bidirectional:
+    - uio_in[0]
+    - uio_in[1]
+    - uio_in[2]
+    - uio_in[3]
+    - uio_in[4]
+    - uio_in[5]
+    - uio_in[6]
+    - uio_in[7]
